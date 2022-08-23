@@ -6,7 +6,6 @@
 
 
 def read_file(track):
-    data = []
     with open(track, 'r') as file:
         data = file.read().split()
         data = list(map(str, data))
